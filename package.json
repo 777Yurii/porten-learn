@@ -1,0 +1,23 @@
+{
+  "name": "porten-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "browser-sync start --server ./site --files site/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/777Yurii/porten-learn.git"
+  },
+  "author": "yurii timakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/777Yurii/porten-learn/issues"
+  },
+  "homepage": "https://github.com/777Yurii/porten-learn#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.11"
+  }
+}
