@@ -1,0 +1,5 @@
+:root {
+  --serif: "Playfair Display", serif;
+  --sans-serif: "PT Sans", sans-serif;
+  font-family: var(--sans-serif);
+}
