@@ -1,0 +1,14 @@
+:root {
+  --white: #ffffff;
+  --light-gray: #d0d0d0;
+  --gray: #969696;
+  --black: #000;
+  --primary-bg: var(--black);
+  --secondary-bg: #191b1c;
+  --selected-nav-item-bg: #1f1f1f;
+  --primary-text-color: var(--white);
+}
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-text-color);
+}
