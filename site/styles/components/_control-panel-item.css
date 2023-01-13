@@ -1,0 +1,23 @@
+.control-panel-item {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--gray);
+  transition: color 0.35s;
+}
+
+a.control-panel-item {
+  text-decoration: none;
+}
+
+a.control-panel-item:hover {
+  color: var(--white);
+}
+
+.control-panel-item__icon {
+  margin-right: 15px;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
