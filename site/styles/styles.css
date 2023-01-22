@@ -1,2 +1,12 @@
+@import url("_reset.css");
 @import url("_fonts.css");
 @import url("_colors.css");
+@import url("components/_icon.css");
+@import url("components/_button-icon.css");
+@import url("components/_control-panel-item.css");
+@import url("components/_header-contacts.css");
+@import url("components/_control-panel.css");
+@import url("components/_container.css");
+@import url("components/_logo.css");
+@import url("components/_main-nav.css");
+@import url("components/_header-nav.css");

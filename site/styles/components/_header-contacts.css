@@ -1,0 +1,22 @@
+.header-contacts {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+}
+
+.header-contacts__item:nth-child(n + 2) {
+  position: relative;
+  margin-left: 5ch;
+}
+
+.header-contacts__item:nth-child(n + 2)::before {
+  content: "|";
+  position: absolute;
+  left: -2.5ch;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--gray);
+}

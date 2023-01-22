@@ -1,0 +1,21 @@
+.main-nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.main-nav__link {
+  padding: 31px 8px;
+  color: var(--gray);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.35s, background-color 0.35s;
+}
+
+.main-nav__link:hover {
+  background-color: var(--selected-nav-item-bg);
+  color: var(--white);
+}

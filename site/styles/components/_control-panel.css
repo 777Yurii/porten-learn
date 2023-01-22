@@ -1,0 +1,11 @@
+.control-panel {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.control-panel__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
