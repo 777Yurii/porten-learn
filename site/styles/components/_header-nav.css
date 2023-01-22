@@ -1,0 +1,22 @@
+.header-nav {
+  background: #0f0f0f;
+}
+
+.header-nav__container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav__menu {
+  margin-left: auto;
+}
+
+.header-nav__actions {
+  display: flex;
+  align-items: center;
+  margin-left: 14px;
+}
+
+.header-nav__search {
+  margin-left: 20px;
+}
