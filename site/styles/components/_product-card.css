@@ -1,0 +1,22 @@
+.product-card {
+}
+.product-card__img {
+}
+.product-card__link {
+  color: var(--primary-text-color);
+  font-size: 18px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.35s, background-color 0.35s;
+}
+
+.product-card__link:hover {
+  color: var(--gray);
+}
+
+.product-card__price {
+  color: var(--light-gray);
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 93px;
+}
