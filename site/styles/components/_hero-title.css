@@ -1,0 +1,29 @@
+.hero-title {
+  width: 320px;
+  height: 320px;
+  border: 4px solid var(--white);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title__img {
+  width: 185px;
+  height: auto;
+}
+
+.hero-title__line {
+  width: 179px;
+  height: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+  border: 2px solid #ffffff;
+}
+
+.hero-title__text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
