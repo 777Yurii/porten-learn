@@ -1,7 +1,18 @@
-.product-card {
+.product-card__img-wrapper {
+  padding: 25px 22px 35px;
+  transition: background-color 0.35s;
+  margin-bottom: 25px;
 }
+
+.product-card:hover .product-card__img-wrapper {
+  background-color: var(--secondary-bg);
+}
+
 .product-card__img {
+  width: 100%;
+  height: auto;
 }
+
 .product-card__link {
   color: var(--primary-text-color);
   font-size: 18px;
@@ -17,6 +28,5 @@
 .product-card__price {
   color: var(--light-gray);
   font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 93px;
+  margin-top: 10px;
 }
