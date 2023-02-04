@@ -1,0 +1,9 @@
+.season {
+  padding: 93px 0;
+  max-width: 880px;
+  margin-left: auto;
+}
+
+.season__heading {
+  margin-bottom: 50px;
+}
