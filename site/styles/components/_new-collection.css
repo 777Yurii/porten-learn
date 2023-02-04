@@ -1,0 +1,19 @@
+.new-collection {
+  height: 100%;
+  padding-left: 80px;
+}
+
+.new-collection__wrapper {
+  background: url(/img/new-collection-background.jpg) center / cover;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.new-collection__heading {
+  --heading-line-offset: 20px;
+  margin-bottom: 30px;
+}
