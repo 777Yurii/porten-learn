@@ -1,0 +1,8 @@
+.content-row {
+  display: flex;
+
+}
+.content-row__column {
+  width: 50%;
+  flex: 0 0 50%;
+}
