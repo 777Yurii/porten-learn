@@ -3,7 +3,7 @@
 }
 
 .previous-collection__wrapper {
-  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
