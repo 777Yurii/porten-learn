@@ -5,9 +5,12 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+  padding-left: 0;
+  margin: 0;
 }
 
 .main-nav__link {
+  display: block;
   padding: 31px 8px;
   color: var(--gray);
   text-decoration: none;
