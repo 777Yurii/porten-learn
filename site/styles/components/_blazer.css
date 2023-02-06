@@ -1,9 +1,10 @@
 .blazer {
-  height: 100%;
-  margin-top: 98px;
+ min-height: 100%;
+display: flex;
 }
 
 .blazer__wrapper {
   background: url(/img/blazer-background.jpg) center / cover;
-  height: 100%;
+  width: 100%;
+ 
 }
