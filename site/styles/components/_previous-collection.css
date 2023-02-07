@@ -1,0 +1,28 @@
+.previous-collection {
+  height: 100%;
+}
+
+.previous-collection__wrapper {
+  width: 100%;
+  min-height: 600px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.previous-collection__heading {
+  --heading-line-offset: 30px;
+  margin-bottom: 40px;
+}
+
+.previous-collection__text {
+  max-width: 628px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 64px;
+  margin-top: 0;
+}

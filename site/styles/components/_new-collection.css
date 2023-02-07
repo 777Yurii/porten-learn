@@ -1,11 +1,12 @@
 .new-collection {
-  height: 100%;
+  min-height: 100%;
   padding-left: 80px;
+  display: flex;
 }
 
 .new-collection__wrapper {
   background: url(/img/new-collection-background.jpg) center / cover;
-  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
