@@ -1,4 +1,7 @@
 .heading {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-family: var(--serif);
   font-weight: 700;
   font-size: 36px;
