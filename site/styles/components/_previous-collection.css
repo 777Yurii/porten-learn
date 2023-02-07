@@ -4,15 +4,16 @@
 
 .previous-collection__wrapper {
   width: 100%;
+  min-height: 600px;
+  box-sizing: border-box;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 98px;
+  padding: 40px 20px;
 }
 
 .previous-collection__heading {
-   margin-top: 100px;
   --heading-line-offset: 30px;
   margin-bottom: 40px;
 }
