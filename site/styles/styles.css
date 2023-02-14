@@ -13,7 +13,7 @@
 @import url("components/_hero-title.css");
 @import url("components/_hero.css");
 @import url("components/_product-card.css");
-@import url("components/_product-catalog.css");
+@import url("components/_product-grid.css");
 @import url("components/_content-row.css");
 @import url("components/_heading.css");
 @import url("components/_season.css");
@@ -21,3 +21,4 @@
 @import url("components/_button.css");
 @import url("components/_blazer.css");
 @import url("components/_previous-collection.css");
+@import url("components/_product-catalog.css");

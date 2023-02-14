@@ -11,6 +11,7 @@
   text-decoration: none;
   background: 0;
   transition: background 0.35s;
+  white-space: nowrap;
 }
 
 .button:hover {
